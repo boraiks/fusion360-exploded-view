@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 320" width="940" height="320" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="940" height="320" fill="#f7f6f3"/>
+
+  <text x="50" y="44" font-size="19" font-weight="700" fill="#2b2926">Grouping parts into layers</text>
+  <text x="50" y="66" font-size="13.5" fill="#6f6a62">Parts are sorted by distance from the reference. Parts that land within the tolerance window share a layer.</text>
+
+  <!-- axis -->
+  <line x1="60" y1="200" x2="880" y2="200" stroke="#b9b4ab" stroke-width="1.2"/>
+  <text x="60" y="240" font-size="12" fill="#8a857c">Y = 0</text>
+  <text x="880" y="240" font-size="12" fill="#8a857c" text-anchor="end">distance from reference →</text>
+
+  <!-- layer 0: base -->
+  <rect x="96" y="176" width="56" height="48" rx="5" fill="#e2ded6" stroke="#8a857c" stroke-width="1.2"/>
+  <text x="124" y="205" font-size="12.5" fill="#4a4640" text-anchor="middle">base</text>
+  <text x="124" y="126" font-size="14" font-weight="700" fill="#2b2926" text-anchor="middle">layer 0</text>
+  <text x="124" y="266" font-size="12" fill="#8a857c" text-anchor="middle">0.000</text>
+
+  <!-- layer 1: three bolts, clustered -->
+  <rect x="404" y="176" width="34" height="48" rx="5" fill="#cfe7dd" stroke="#3f8f79" stroke-width="1.2"/>
+  <rect x="442" y="176" width="34" height="48" rx="5" fill="#cfe7dd" stroke="#3f8f79" stroke-width="1.2"/>
+  <rect x="480" y="176" width="34" height="48" rx="5" fill="#cfe7dd" stroke="#3f8f79" stroke-width="1.2"/>
+  <text x="459" y="126" font-size="14" font-weight="700" fill="#2b2926" text-anchor="middle">layer 1</text>
+  <text x="459" y="266" font-size="12" fill="#8a857c" text-anchor="middle">4.500  /  4.502  /  4.498</text>
+  <text x="459" y="286" font-size="12" fill="#8a857c" text-anchor="middle">three bolts, side by side</text>
+
+  <!-- tolerance window over the cluster -->
+  <rect x="396" y="150" width="126" height="16" rx="3" fill="none" stroke="#3f8f79" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <line x1="459" y1="166" x2="459" y2="174" stroke="#3f8f79" stroke-width="1.2"/>
+  <text x="534" y="162" font-size="12.5" fill="#2c5f51">tolerance window — treated as the same distance</text>
+
+  <!-- layer 2: cap -->
+  <rect x="790" y="176" width="56" height="48" rx="5" fill="#f2ddd6" stroke="#c06a52" stroke-width="1.2"/>
+  <text x="818" y="205" font-size="12.5" fill="#8f4a37" text-anchor="middle">cap</text>
+  <text x="818" y="126" font-size="14" font-weight="700" fill="#2b2926" text-anchor="middle">layer 2</text>
+  <text x="818" y="266" font-size="12" fill="#8a857c" text-anchor="middle">9.100</text>
+</svg>

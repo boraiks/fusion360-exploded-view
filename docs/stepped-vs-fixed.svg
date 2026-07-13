@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 440" width="940" height="440" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="940" height="440" fill="#f7f6f3"/>
+
+  <!-- divider -->
+  <line x1="470" y1="30" x2="470" y2="410" stroke="#dcd8d0" stroke-width="1"/>
+
+  <!-- ================= LEFT: FIXED OFFSET ================= -->
+  <text x="60" y="50" font-size="19" font-weight="700" fill="#2b2926">Fixed offset</text>
+  <text x="60" y="72" font-size="13.5" fill="#6f6a62">Every part moves the same distance.</text>
+  <text x="60" y="90" font-size="13.5" fill="#6f6a62">The block opens up — but the parts stay stacked.</text>
+
+  <!-- reference line -->
+  <line x1="60" y1="370" x2="430" y2="370" stroke="#b9b4ab" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="60" y="392" font-size="12" fill="#8a857c">reference  (Y = 0)</text>
+
+  <!-- base -->
+  <rect x="150" y="340" width="150" height="30" rx="4" fill="#e2ded6" stroke="#8a857c" stroke-width="1.2"/>
+  <text x="225" y="359" font-size="13" fill="#4a4640" text-anchor="middle">base</text>
+
+  <!-- parts: all shifted +1 gap, still touching each other -->
+  <rect x="165" y="270" width="120" height="30" rx="4" fill="#cfe7dd" stroke="#3f8f79" stroke-width="1.2"/>
+  <text x="225" y="289" font-size="13" fill="#2c5f51" text-anchor="middle">layer 1</text>
+
+  <rect x="165" y="240" width="120" height="30" rx="4" fill="#cfe7dd" stroke="#3f8f79" stroke-width="1.2"/>
+  <text x="225" y="259" font-size="13" fill="#2c5f51" text-anchor="middle">layer 2</text>
+
+  <rect x="165" y="210" width="120" height="30" rx="4" fill="#cfe7dd" stroke="#3f8f79" stroke-width="1.2"/>
+  <text x="225" y="229" font-size="13" fill="#2c5f51" text-anchor="middle">layer 3</text>
+
+  <!-- single gap bracket -->
+  <line x1="325" y1="300" x2="325" y2="340" stroke="#c06a52" stroke-width="1.4"/>
+  <line x1="320" y1="300" x2="330" y2="300" stroke="#c06a52" stroke-width="1.4"/>
+  <line x1="320" y1="340" x2="330" y2="340" stroke="#c06a52" stroke-width="1.4"/>
+  <text x="338" y="325" font-size="12.5" fill="#a2543e">gap</text>
+
+  <!-- callout on the fused stack -->
+  <line x1="140" y1="255" x2="160" y2="255" stroke="#c06a52" stroke-width="1.4"/>
+  <text x="132" y="243" font-size="12.5" fill="#a2543e" text-anchor="end">still</text>
+  <text x="132" y="259" font-size="12.5" fill="#a2543e" text-anchor="end">touching</text>
+  <text x="132" y="275" font-size="12.5" fill="#a2543e" text-anchor="end">each other</text>
+
+  <!-- ================= RIGHT: STEPPED ================= -->
+  <text x="520" y="50" font-size="19" font-weight="700" fill="#2b2926">Stepped</text>
+  <text x="520" y="72" font-size="13.5" fill="#6f6a62">Distance grows with the layer number.</text>
+  <text x="520" y="90" font-size="13.5" fill="#6f6a62">Parts separate from the block — and from each other.</text>
+
+  <!-- reference line -->
+  <line x1="520" y1="370" x2="890" y2="370" stroke="#b9b4ab" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="520" y="392" font-size="12" fill="#8a857c">reference  (Y = 0)</text>
+
+  <!-- base -->
+  <rect x="610" y="340" width="150" height="30" rx="4" fill="#e2ded6" stroke="#8a857c" stroke-width="1.2"/>
+  <text x="685" y="359" font-size="13" fill="#4a4640" text-anchor="middle">base</text>
+
+  <!-- layer 1: +1 gap -->
+  <rect x="625" y="270" width="120" height="30" rx="4" fill="#cfe7dd" stroke="#3f8f79" stroke-width="1.2"/>
+  <text x="685" y="289" font-size="13" fill="#2c5f51" text-anchor="middle">layer 1</text>
+
+  <!-- layer 2: +2 gap -->
+  <rect x="625" y="200" width="120" height="30" rx="4" fill="#cfe7dd" stroke="#3f8f79" stroke-width="1.2"/>
+  <text x="685" y="219" font-size="13" fill="#2c5f51" text-anchor="middle">layer 2</text>
+
+  <!-- layer 3: +3 gap -->
+  <rect x="625" y="130" width="120" height="30" rx="4" fill="#cfe7dd" stroke="#3f8f79" stroke-width="1.2"/>
+  <text x="685" y="149" font-size="13" fill="#2c5f51" text-anchor="middle">layer 3</text>
+
+  <!-- brackets -->
+  <line x1="785" y1="300" x2="785" y2="340" stroke="#3f8f79" stroke-width="1.4"/>
+  <line x1="780" y1="300" x2="790" y2="300" stroke="#3f8f79" stroke-width="1.4"/>
+  <line x1="780" y1="340" x2="790" y2="340" stroke="#3f8f79" stroke-width="1.4"/>
+  <text x="798" y="325" font-size="12.5" fill="#2c5f51">1 × gap</text>
+
+  <line x1="785" y1="230" x2="785" y2="270" stroke="#3f8f79" stroke-width="1.4"/>
+  <line x1="780" y1="230" x2="790" y2="230" stroke="#3f8f79" stroke-width="1.4"/>
+  <line x1="780" y1="270" x2="790" y2="270" stroke="#3f8f79" stroke-width="1.4"/>
+  <text x="798" y="255" font-size="12.5" fill="#2c5f51">2 × gap</text>
+
+  <line x1="785" y1="160" x2="785" y2="200" stroke="#3f8f79" stroke-width="1.4"/>
+  <line x1="780" y1="160" x2="790" y2="160" stroke="#3f8f79" stroke-width="1.4"/>
+  <line x1="780" y1="200" x2="790" y2="200" stroke="#3f8f79" stroke-width="1.4"/>
+  <text x="798" y="185" font-size="12.5" fill="#2c5f51">3 × gap</text>
+</svg>
