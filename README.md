@@ -12,7 +12,7 @@ A Fusion 360 add-in that builds exploded views automatically. Instead of pushing
     <td><img src="docs/after.png" alt="Exploded model" width="100%"></td>
   </tr>
 </table>
----
+
  
 ## Features
  
